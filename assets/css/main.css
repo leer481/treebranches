@@ -1,0 +1,44 @@
+body {
+	background: #efe8df;
+}
+
+.item {
+	color: #877d6e;
+	font-family: orpheuspro, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 96px;
+	line-height: 98px;
+	margin-left: 2%;
+	margin-top: 8%;
+	margin-bottom: 2%;
+}
+
+.text{
+	font-family: granville, serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 43px;
+	margin-right: 10%;
+	margin-left: 2%;
+}
+
+/* If the browser window is smaller than 500px, the background color will change to lightblue: */
+@media (max-width: 500px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* If the browser window is shorter than 650px, the background will turn orange */
+@media (max-height: 650px) {
+ body {
+  background-color: #f4eae6;
+}
+
+/* The body's background is set to blue by default, but when the browser's width is at least 1000 pixels wide, the background is set to red. */
+@media (min-width: 1000px) {
+  body {
+    background-color: #f4f1ea;
+  }
